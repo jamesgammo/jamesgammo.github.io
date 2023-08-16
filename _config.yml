@@ -20,9 +20,9 @@
 
 title: James Gammon
 email: jamesegammon@gmail.com
-description: My first website and blog combined.
+description: Welcome to my website and personal blog portfolio. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jamesgammo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jamesegammon.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: JamesGammon15
 github_username:  jamesgammo
 
