@@ -1,2 +1,7 @@
 # jamesgammo.github.io
-Jekyll and pages blog 
+
+Personal portfolio / blog / website 
+
+
+index.html
+index.md take priority 
