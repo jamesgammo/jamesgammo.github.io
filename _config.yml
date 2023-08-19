@@ -21,8 +21,8 @@
 title: James Gammon
 email: jamesegammon@gmail.com
 description: Welcome! 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jamesegammon.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /
+url: https://jamesegammon.com
 
 # PUBLIC HANDLES
 #twitter_username: JamesGammon15
