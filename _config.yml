@@ -18,14 +18,30 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: James Gammon
+title: James'website
 email: jamesegammon@gmail.com
-description: Welcome to my website and personal blog portfolio. 
+description: Welcome! 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jamesegammon.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: JamesGammon15
+
+# PUBLIC HANDLES
+#twitter_username: JamesGammon15
 github_username:  jamesgammo
  
+
+# INCLUDED FIELDS SHOULD BE PUT HERE
+# Author is the default for posts, the atom feed, and is used in the footer. 
+# Used in the _includes : footer 
+author: James Gammon
+
+# CUSTOM FIELDS SHOULD BE PUT HERE 
+# Adding a copyright. A copy right symbol and year will be added automatically
+# copyright: Copmany Name, Inc. 
+copyright: James Gammon. All rights reserved
+
+
+
+
 # Build settings
 # Removed minima theme and its now just a regular theme.
 #theme: minima
