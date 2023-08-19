@@ -5,6 +5,9 @@
 <link href="{{- site.url -}}{{- site.baseurl -}}code/feed.xml" rel="self" type="application/atom+xml"/>
 <link href="{{- site.url -}}{{- site.baseurl -}}code/feed.xml" rel="alternate" type="text/html"/>
 
+<!-- feed itself and the post entries for the feed-->
+
+
 <!-- Describes when the feed has been updated -->
 <updated>{{- site.time | date_to_xmlschema -}}</updated>
 
