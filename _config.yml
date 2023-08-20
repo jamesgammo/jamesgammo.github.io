@@ -4,47 +4,53 @@
 # which you are expected to set up once and rarely edit after that. If you find
 # yourself editing this file very often, consider using Jekyll's data files
 # feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: James Gammon
-email: jamesegammon@gmail.com
-description: Welcome! 
-baseurl: /
 url: https://jamesegammon.com
+baseurl: /
+title: James Gammon
 
-# PUBLIC HANDLES
-#twitter_username: JamesGammon15
-github_username:  jamesgammo
- 
+
+code: 
+  title: code.Jamesegammon
+  tagline: "creating and constructing."
+  url: https://jamesegammon.com/code
+
+
+film: 
+  title: food.Jamesegammon
+  tagline: Aiming to spread plentiful information on living with allergies 
+  url: https://jamesegammon.com/food 
+
 
 # INCLUDED FIELDS SHOULD BE PUT HERE
+name: James Gammon
+email: jamesegammon@gmail.com
+description: Welcome! 
 # Author is the default for posts, the atom feed, and is used in the footer. 
 # Used in the _includes : footer 
 author: James Gammon
 
+
 # CUSTOM FIELDS SHOULD BE PUT HERE 
-# Adding a copyright. A copy right symbol and year will be added automatically
-# copyright: Copmany Name, Inc. 
 copyright: James Gammon. All rights reserved
 
 
+# PUBLIC HANDLES
+twitter_username: JamesGammon15
+github_username:  jamesgammo
+github:
+  repo: https://github.com/jamesgammo/jamesgammo.github.io
+  account: https://github.com/jamesgammo
+ 
+
 # Build settings
-# Removed minima theme and its now just a regular theme.
 #theme: minima
 plugins:
 - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

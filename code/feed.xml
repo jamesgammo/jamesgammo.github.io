@@ -5,7 +5,7 @@
 <link href="{{- site.url -}}{{- site.baseurl -}}code/feed.xml" rel="self" type="application/atom+xml"/>
 <link href="{{- site.url -}}{{- site.baseurl -}}code/feed.xml" rel="alternate" type="text/html"/>
 
-<!-- feed itself and the post entries for the feed-->
+<!-- feed itself and the post entries for the feed : allows for quick updates and transfer of -->
 
 
 <!-- Describes when the feed has been updated -->
@@ -29,8 +29,6 @@
         <id>{{ site.url }}{{- post.url -}}</id>
         <link href="{{ site.url }}{{- post.url -}}"/>
         <updated>{{ post.date | date_to_xmlschema }}</updated>
-
-
 
         <!-- The first text before a paragraph mark is the excerpt -->
         <summary>{%- if post.excerpt -%}
