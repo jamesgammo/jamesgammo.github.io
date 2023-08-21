@@ -7,7 +7,7 @@
  
 .site-header {
   border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+  /*border-bottom: 1px solid $grey-color-light;*/
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
@@ -29,7 +29,7 @@
 }
 
 .site-nav {
-  float: right;
+  text-align: center; /*changed*/
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
@@ -46,7 +46,7 @@
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
-      margin-right: 20px;
+      margin-right: 30px;
     }
   }
 
@@ -103,6 +103,12 @@
     }
   }
 }
+
+
+
+
+
+
 
 
 

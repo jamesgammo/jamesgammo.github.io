@@ -102,17 +102,37 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Links
  */
+
+//added
+.headertut{
+  text-decoration: none;
+  position: relative;
+
+  &::after{
+    content:'';
+    width:0;
+    height: 3px;
+    background: #086dcc;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.3s;
+  }
+
+  &:hover::after{
+    width: 100%;
+  }
+}
+
+// All links on the page
 a {
   color: $brand-color;
   text-decoration: none;
-
-  &:visited {
-    color: darken($brand-color, 15%);
-  }
+  position: relative;
 
   &:hover {
     color: $text-color;
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   .social-media-list &:hover {
