@@ -1,9 +1,7 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home-food
-title: "CuriousCuisine"
-category: Food
+title: "Food blog"
+category: Food # Category ; blog posts are filtered by this name 
+order: 3
 ---
 

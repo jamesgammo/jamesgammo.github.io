@@ -12,13 +12,13 @@ url: https://jamesegammon.com
 baseurl: /
 title: James Gammon
 
-
+# collection code 
 code: 
   title: code.Jamesegammon
   tagline: "creating and constructing."
   url: https://jamesegammon.com/code
 
-
+# collection film
 film: 
   title: food.Jamesegammon
   tagline: Aiming to spread plentiful information on living with allergies 
@@ -37,14 +37,13 @@ author: James Gammon
 # CUSTOM FIELDS SHOULD BE PUT HERE 
 copyright: James Gammon. All rights reserved
 
-
 # PUBLIC HANDLES
 twitter_username: JamesGammon15
 github_username:  jamesgammo
 github:
   repo: https://github.com/jamesgammo/jamesgammo.github.io
   account: https://github.com/jamesgammo
- 
+
 
 # Build settings
 #theme: minima

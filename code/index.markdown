@@ -1,9 +1,6 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home-cs
-title: "ByteSizeInsights"
-category: CS
+title: "Tech blog"
+category: CS # Category ; blog posts are filtered by this name 
+order: 4
 ---
-
