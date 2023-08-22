@@ -1,12 +1,14 @@
-<footer class="site-footer h-card">
+  <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
 
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+      <div class="footer-col">
 
         &copy; {{ 'now' | date: "%Y"}} {{ site.copyright}} 
+        <br>
+        Code snippet re-use from this site can be used in personal or commerical projects without attribution.
         {%- include social.html -%}
 
       </div>

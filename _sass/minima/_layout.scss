@@ -1,12 +1,45 @@
 
 /* Site header, site footer, page content, posts */
 
+//Links to external font style sheets
+@import url('https://fonts.googleapis.com/css?family=Share Tech Mono');
+
+
+
+pre{
+  font-size: 12px; /* Set the font size */
+  color: #333; /* Set the text color */
+  background-color: white; /* Set the background color */
+  padding: 10px; /* Add padding to provide spacing around the text */
+  border: 1px solid white; /* Add a border for visual separation */
+  white-space: pre-wrap; /* Preserve line breaks and wrap long lines */
+}
+
+
 /**
  * Site header
  */
  
 .site-header {
-  border-top: 5px solid $grey-color-dark;
+  border-top: 5px solid $grey-color;
+  /*border-bottom: 1px solid $grey-color-light;*/
+  min-height: $spacing-unit * 1.865;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+.site-food-header {
+  border-top: 5px solid #086dcc ;
+  /*border-bottom: 1px solid $grey-color-light;*/
+  min-height: $spacing-unit * 1.865;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+.site-computing-header {
+  border-top: 5px solid #9a4962;
   /*border-bottom: 1px solid $grey-color-light;*/
   min-height: $spacing-unit * 1.865;
 
@@ -31,6 +64,7 @@
 .site-nav {
   text-align: center; /*changed*/
   line-height: $base-line-height * $base-font-size * 2.25;
+  padding-top: 3px;
 
   .nav-trigger {
       display: none;
@@ -43,7 +77,8 @@
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
-
+    font-style: "Roboto";
+    
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
       margin-right: 30px;
@@ -75,7 +110,7 @@
       height: 26px;
       line-height: 0;
       padding-top: 10px;
-      text-align: center;
+      text-align: center;   
 
       > svg {
         fill: $grey-color-dark;
@@ -116,7 +151,7 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+  //border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
 }
 
@@ -133,13 +168,14 @@
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $grey-color;
+  color: $text-color;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
 
 .footer-col {
-  float: left;
+  color: $secondary-font;
+  text-align: center;
   margin-bottom: $spacing-unit / 2;
   padding-left: $spacing-unit / 2;
 }
@@ -207,17 +243,47 @@
   }
 }
 
+.older-posts{
+  list-style: none;
+  margin-left: 0;
+}
+
 .post-meta {
   font-size: $small-font-size;
-  color: $grey-color;
+  color: $secondary-font;
 }
 
-.post-link {
+.post-meta-cs {
+  font-size: $small-font-size;
+  color: #542836;
+}
+
+
+.post-link-tech {
   display: block;
   @include relative-font-size(1.5);
+  font-family: 'Share Tech Mono';
+  color: #9a4962;
+  transition: transform 0.3s;
+
+  &:hover{
+    transform: scale(1.1); /* Enlarge the text to 120% of its original size on hover */
+    color: #9a4962;
+
+  }
+} 
+
+.post-link-food {
+  display: block;
+  @include relative-font-size(1.5);
+  font-family: $base-font-family;
+  color: #086dcc;
+  transition: transform 0.3s;
+
+  &:hover{
+    transform: scale(1.1); /* Enlarge the text to 120% of its original size on hover */
+  }
 }
-
-
 
 /**
  * Posts
@@ -226,7 +292,7 @@
   margin-bottom: $spacing-unit;
 }
 
-.post-title {
+.post-title-tech {
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
@@ -235,6 +301,17 @@
     @include relative-font-size(2.25);
   }
 }
+
+.post-title-food {
+  @include relative-font-size(2.625);
+  letter-spacing: -1px;
+  line-height: 1;
+
+  @include media-query($on-laptop) {
+    @include relative-font-size(2.25);
+  }
+}
+
 
 .post-content {
   margin-bottom: $spacing-unit;

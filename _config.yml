@@ -15,7 +15,7 @@ title: James Gammon
 # collection code 
 code: 
   title: code.Jamesegammon
-  tagline: "creating and constructing."
+  tagline: "creation is humanties gratest asset"
   url: https://jamesegammon.com/code
 
 # collection film
@@ -38,8 +38,8 @@ author: James Gammon
 copyright: James Gammon. All rights reserved
 
 # PUBLIC HANDLES
-twitter_username: JamesGammon15
-github_username:  jamesgammo
+#twitter_username: JamesGammon15
+#github_username:  jamesgammo
 github:
   repo: https://github.com/jamesgammo/jamesgammo.github.io
   account: https://github.com/jamesgammo

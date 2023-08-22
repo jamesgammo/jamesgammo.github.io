@@ -1,0 +1,16 @@
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+    <!-- All .markdown pages-->
+    {%- assign default_paths = site.pages | sort:"order"| map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    <link href='https://fonts.googleapis.com/css?family=Share Tech Mono' rel='stylesheet'>
+
+    <!--James Gammon name link ;; edited on 6 part youtube series-->
+    <nav>
+      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+      <a class="site-title" style="float: right;" href="/code/">JG.Computing</a> 
+    </nav>
+
+  </div>
+</header>

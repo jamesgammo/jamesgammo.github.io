@@ -60,7 +60,6 @@ img {
 }
 
 
-
 /**
  * Figures
  */
@@ -125,6 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 // All links on the page
+
 a {
   color: $text-color;
   text-decoration: none;
@@ -139,7 +139,7 @@ a {
     text-decoration: none;
 
     .username {
-      text-decoration: underline;
+      text-decoration:dotted;
     }
   }
 }
@@ -232,7 +232,7 @@ pre {
     width: 16px;
     height: 16px;
     display: inline-block;
-    fill: #{$grey-color};
+    fill: #{$text-color};
     padding-right: 5px;
     vertical-align: text-top;
 }
