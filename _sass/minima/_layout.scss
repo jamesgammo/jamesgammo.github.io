@@ -285,6 +285,37 @@ pre{
   }
 }
 
+
+
+// Code for ascii art represented on phone screen 
+
+// class for menu: 
+
+
+.art-div{
+
+  .ascii-art-laptop{ display: block; }
+
+  .ascii-art-phone{ display: none; }
+
+
+  @include media-query($on-palm) {
+    .ascii-art-laptop{display: none;}
+    .ascii-art-phone{display: block;}
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
 /**
  * Posts
  */

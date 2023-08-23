@@ -16,13 +16,13 @@ title: James Gammon
 code: 
   title: code.Jamesegammon
   tagline: "creation is humanties gratest asset"
-  url: https://jamesegammon.com/code
+  url: https://jamesegammon.com/code/
 
 # collection film
 film: 
   title: food.Jamesegammon
   tagline: Aiming to spread plentiful information on living with allergies 
-  url: https://jamesegammon.com/food 
+  url: https://jamesegammon.com/food/
 
 
 # INCLUDED FIELDS SHOULD BE PUT HERE
@@ -46,7 +46,7 @@ github:
 
 
 # Build settings
-theme: minima
+#theme: minima
 plugins:
 - jekyll-feed
 

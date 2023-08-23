@@ -7,3 +7,4 @@ title: "Home"
 order: 1
 ---
 
+<head><title>James' website</title></head>
