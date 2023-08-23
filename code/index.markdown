@@ -18,8 +18,8 @@ order: 4
 <!-- class to show art div -->
 
 
-<div class = "art-div">
-  <pre class ="asii-art-laptop">
+<div class ="ascii-art-laptop">
+  <pre >
                               \\\\\\\\\
                               \\\\\\\\\\\\ 
                             \\\\\\\\\\\\\\\
@@ -39,8 +39,10 @@ order: 4
               | ,','  __/ |             /   |
   _____________|','   ///_/-------------/   |
   </pre>
+</div>
 
-  <pre class ="asii-art-phone">
+<div class ="ascii-art-phone">
+  <pre>
                               \\\\\\\\\
                               \\\\\\\\\\\\ 
                             \\\\\\\\\\\\\\\
@@ -61,5 +63,7 @@ order: 4
   _____________|','   ///_/-------------/   |
   </pre>
 </div>
+
+
 <hr> 
 <br>

@@ -288,31 +288,17 @@ pre{
 
 
 // Code for ascii art represented on phone screen 
+.ascii-art-phone{ display: none;}
 
-// class for menu: 
-
-
-.art-div{
-
-  .ascii-art-laptop{ display: block; }
-
-  .ascii-art-phone{ display: none; }
-
-
-  @include media-query($on-palm) {
-    .ascii-art-laptop{display: none;}
-    .ascii-art-phone{display: block;}
+@include media-query($on-palm){
+  .ascii-art-laptop{
+    display: none;
   }
 
-
-
+  .ascii-art-phone{
+    display: block;
+  }
 }
-
-
-
-
-
-
 
 
 
