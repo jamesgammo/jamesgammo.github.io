@@ -16,6 +16,13 @@ pre{
 }
 
 
+.no-padding-paragraph {
+  font-family: ;
+  margin: 0; 
+  padding: 0; 
+
+}
+
 /**
  * Site header
  */
@@ -267,7 +274,7 @@ pre{
   transition: transform 0.3s;
 
   &:hover{
-    transform: scale(1.1); /* Enlarge the text to 120% of its original size on hover */
+    transform: scale(1.1); 
     color: #9a4962;
 
   }
@@ -281,10 +288,9 @@ pre{
   transition: transform 0.3s;
 
   &:hover{
-    transform: scale(1.1); /* Enlarge the text to 120% of its original size on hover */
+    transform: scale(1.1); 
   }
 }
-
 
 
 // Code for ascii art represented on phone screen 
@@ -356,4 +362,5 @@ pre{
       @include relative-font-size(1.125);
     }
   }
+
 }
