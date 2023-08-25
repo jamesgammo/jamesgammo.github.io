@@ -18,20 +18,20 @@ layout: home
 <p class="no-padding-paragraph" style="font-size: 26px">Projects:</p> 
 <div class="center-content">
     <div class="bordered-text center-content">
-        <a class="no-padding-paragraph headertut" href="/About-website.markdown">This website</a><br>
+        <a class="no-padding-paragraph headertut" href="/About-website.html">This website</a><br>
         <span class="post-meta">A simple combination of a personal portfolio and some inspired blogs; hosted on a single site.</span>
     </div>
 </div>
 
 <br>
 <div class="center-content">
- <a href="https://github.com/Antrikshy">
+ <a href="https://github.com/jamesgammo">
     <picture>
       <source srcset="/github.png">
       <img src="github.png">
     </picture>
     <br/>
-    <small class="headertut">More on GitHub</small>
+    <small class="headertut">GitHub</small>
   </a>
 </div>
 

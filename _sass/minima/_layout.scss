@@ -40,15 +40,12 @@
   font-size: 28px;
 }
 
-
-
 .seflie-drawn{
   max-width: 95px; 
   width: 95px;
   height: 130px; 
   border: 1px solid #2a7ae2;
 }
-
 
 .center-content{
   text-align: center;
@@ -90,7 +87,7 @@ pre{
 }
 
 .site-food-header {
-  border-top: 5px solid #086dcc ;
+  border-top: 5px solid #4a8259 ;
   /*border-bottom: 1px solid $grey-color-light;*/
   min-height: $spacing-unit * 1.865;
 
@@ -318,6 +315,11 @@ pre{
   color: #542836;
 }
 
+.post-meta-food {
+  font-size: $small-font-size;
+  color: #364f3d;
+}
+
 
 .post-link-tech {
   display: block;
@@ -337,11 +339,13 @@ pre{
   display: block;
   @include relative-font-size(1.5);
   font-family: $base-font-family;
-  color: #086dcc;
+  color: #4a8259;
   transition: transform 0.3s;
 
   &:hover{
     transform: scale(1.1); 
+    color: #4a8259;
+
   }
 }
 

@@ -15,12 +15,13 @@ layout: food
       <li>
         <a class="post-link-food" href="{{ post.url }}">{{ post.title }}</a>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <hr style="background-color: #086dcc; height: 1px; border: none;">
+        <span class="post-meta-food">{{ post.date | date: date_format }}</span>
         {{ post.excerpt }}
-        <a href="{{ post.url }}"> <b style = "color: #086dcc;">Read more &#187;</b> </a> <!---class="read-more-btn"-->
+        <a href="{{ post.url }}"> <b style = "color: #4a8259;">Read more &#187;</b> </a> <!---class="read-more-btn"-->
       </li>
       {%- endfor -%}
+
+      <p style="font-size: 22px;">More posts:</p>
       <ul class="older-posts">
         {%- assign cs_posts_older = site.posts | where: "category", "Food" -%}
         {%- for post in cs_posts_older offset:5 -%}      
