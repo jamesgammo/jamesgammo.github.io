@@ -5,6 +5,55 @@
 @import url('https://fonts.googleapis.com/css?family=Share Tech Mono');
 
 
+// Own classes imported
+
+.html-tag{
+  color: #2a7ae2;
+}
+
+.bordered-text {
+  border: 1px solid #000; /* Border style, width, and color */
+  padding: 10px; /* Add some padding inside the border for spacing */
+  width: 350px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.img-with-text{
+    display: flex; /* Use flexbox to align elements horizontally */
+    align-items: center; /* Center vertically within container */
+    align-items: center;
+    margin: 0;
+}
+
+.text{
+  flex: 1; /* Distribute available space equally between text and image */
+  padding: 20px; /* Add some spacing around the text */
+  text-align: center;
+}
+
+.intro-text{
+  font-size: 36px;
+}
+
+.secondary-text{
+  font-size: 28px;
+}
+
+
+
+.seflie-drawn{
+  max-width: 95px; 
+  width: 95px;
+  height: 130px; 
+  border: 1px solid #2a7ae2;
+}
+
+
+.center-content{
+  text-align: center;
+  
+}
 
 pre{
   font-size: 12px; /* Set the font size */
