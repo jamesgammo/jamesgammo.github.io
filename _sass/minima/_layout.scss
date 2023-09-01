@@ -7,6 +7,17 @@
 
 // Own classes imported
 
+.row {
+  display: flex; /* Use flexbox for easy alignment */
+}
+
+.col {
+  padding: 5px; /* Optional: Add padding for spacing */
+  text-align: center; /* Optional: Center align content */
+}
+
+
+
 .html-tag{
   color: #2a7ae2;
 }

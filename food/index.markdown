@@ -7,8 +7,6 @@ order: 3
 
 <p>Welcome to my food blog, I'll talk about my experience with food, whats it's like living with severe allergies and how I've travelled with food.</p>
 
-Click <a href="/about.html" style="color: blue;">here </a>to learn more about me.
-
 
 <hr style="background-color: #4a8259; height: 1px; border: none;">
 
