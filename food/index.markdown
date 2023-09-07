@@ -31,7 +31,7 @@ order: 3
 
 
 
-<div id="introdction">
+<div id="introdction ">
     <!--Heading-->
     <p id="title" class="no-padding-paragraph center-content" style="font-size:24px;">Hi, I'm James</p>
     <!--Introduction to the blog-->
