@@ -1,0 +1,172 @@
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var selected_class = "";
+
+        // Function to change the selected class
+        function changeClass(newClass) {
+            selected_class = newClass;
+            updateContent();
+        }
+
+        // Function to update the content based on selected_class
+        function updateContent() {
+            var contentSections = document.querySelectorAll('.content-section');
+            contentSections.forEach(function (section) {
+                section.style.display = 'none';
+            });
+
+            // Show all content sections if selected_class is empty
+            if (selected_class === "") {
+                contentSections.forEach(function (section) {
+                    section.style.display = 'block';
+                });
+                // Show the content section for the selected class
+            } else {
+                var selectedSection = document.getElementById(selected_class);
+                if (selectedSection) {
+                    selectedSection.style.display = 'block';
+                }
+            }
+        }
+
+        // Event listener for the "Show All" link
+        var showAllLink = document.querySelector('.show-all-link');
+        showAllLink.addEventListener('click', function (event) {
+            event.preventDefault(); // Prevent the link from navigating
+            changeClass(''); // Set selected_class to empty to show all posts
+        });
+
+        // Initialize by showing all posts
+        updateContent();
+    });
+</script>
+
+<div class="introduction">
+    <p>Welcome to my food blog ッ</p>
+    <p>Click on a topic below!</p>
+    <!-- Each class of food post -->
+    <div class="row">
+        <div class="col-food">
+            <a href="#" class="no-padding-paragraph show-all-link" >All posts</a>
+        </div>
+        <div class="col-food">
+            <a href="#" class="no-padding-paragraph" onclick="changeClass('tips')">Tips</a>
+        </div>
+        <div class="col-food">
+            <a href="#" class="no-padding-paragraph" onclick="changeClass('everyday')">Everyday</a>
+        </div>
+        <div class="col-food">
+            <a href="#" class="no-padding-paragraph" onclick="changeClass('travel')">Travel</a>
+        </div>
+    </div>
+</div>
+
+<hr style="background-color: #4a8259; height: 1px; border: none;">
+
+<!-- Content sections for different classes -->
+<div id="post-display">
+    <div id="tips" class="content-section">
+        <!-- Content for 'tips' class -->
+        <div id="post-display">
+            {%- if site.posts.size > 0 -%}
+                <ul class="post-list">
+                {%- assign food_posts = site.posts | where: "category", "Food" | where: class, "tips" -%}
+                {%- for post in food_posts limit:2 -%}
+                <li>
+                    <a class="post-link-food" href="{{ post.url }}">{{ post.title }}</a>
+                    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                    <span class="post-meta-food">{{ post.date | date: date_format }}</span>
+                    {{ post.excerpt }}
+                    <a href="{{ post.url }}"> <b style = "color: #4a8259;">Read more &#187;</b> </a> <!---class="read-more-btn"-->
+              </li>
+              {%- endfor -%}
+              <!-- Finished the first 5 posts -->
+              <p style="font-size: 22px;">More posts:</p>
+              <ul class="older-posts">
+                    {%- assign cs_posts_older = site.posts | where: "category", "Food" | where: "class", "tips"-%}
+                    {%- for post in cs_posts_older offset:2 -%}      
+                    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                    <li>
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                        <br/>
+                        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                        <span class="post-meta">{{ post.date | date: date_format }}</span>     
+                    </li>
+                  <br>
+                  {%- endfor -%}
+              </ul>
+              </div>
+            {%- endif -%}
+          </div>
+    </div>
+    <div id="everyday" class="content-section">
+        <!-- Content for 'everyday' class -->
+        <div id="post-display">
+            {%- if site.posts.size > 0 -%}
+                <ul class="post-list">
+                {%- assign food_posts = site.posts | where: "category", "Food" | where: class, "everyday" -%}
+                {%- for post in food_posts limit:2 -%}
+                <li>
+                    <a class="post-link-food" href="{{ post.url }}">{{ post.title }}</a>
+                    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                    <span class="post-meta-food">{{ post.date | date: date_format }}</span>
+                    {{ post.excerpt }}
+                    <a href="{{ post.url }}"> <b style = "color: #4a8259;">Read more &#187;</b> </a>
+              </li>
+              {%- endfor -%}
+              <!-- Finished the first 5 posts -->
+              <p style="font-size: 22px;">More posts:</p>
+              <ul class="older-posts">
+                    {%- assign cs_posts_older = site.posts | where: "category", "Food" | where: "class", "everyday"-%}
+                    {%- for post in cs_posts_older offset:2 -%}      
+                    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                    <li>
+                        <div class="blog-post" data-class="{{ post.class }}">
+                            <a href="{{ post.url }}">{{ post.title }}</a>
+                            <br/>
+                            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                            <span class="post-meta">{{ post.date | date: date_format }}</span>     
+                        </div>  
+                  </li>
+                  <br>
+                  {%- endfor -%}
+              </ul>
+              </div>
+            {%- endif -%}
+          </div>
+    </div>
+    <div id="travel" class="content-section">
+        <!-- Content for 'travel' class -->
+        <div id="post-display">
+            {%- if site.posts.size > 0 -%}
+                <ul class="post-list">
+                {%- assign food_posts = site.posts | where: "category", "Food" | where: class, "travel" -%}
+                {%- for post in food_posts limit:2 -%}
+                <li>
+                    <a class="post-link-food" href="{{ post.url }}">{{ post.title }}</a>
+                    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                    <span class="post-meta-food">{{ post.date | date: date_format }}</span>
+                    {{ post.excerpt }}
+                    <a href="{{ post.url }}"> <b style = "color: #4a8259;">Read more &#187;</b> </a> 
+              </li>
+              {%- endfor -%}
+              <!-- Finished the first 5 posts -->
+              <p style="font-size: 22px;">More posts:</p>
+              <ul class="older-posts">
+                    {%- assign cs_posts_older = site.posts | where: "category", "Food" | where: "class", "travel" -%}
+                    {%- for post in cs_posts_older offset:2 -%}      
+                    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                    <li>
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                        <br/>
+                        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                        <span class="post-meta">{{ post.date | date: date_format }}</span>     
+                  </li>
+                  <br>
+                  {%- endfor -%}
+              </ul>
+              </div>
+            {%- endif -%}
+          </div>
+    </div>
+</div>
