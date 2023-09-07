@@ -13,6 +13,7 @@ layout: home
         --->
         <div class="col">
             <p class="center-content">&lt;<span class="html-tag">p</span>&gt;I'm an undergraduate Computer Science student with a strong passion for the architectural aspects of technology development.&lt;<span class="html-tag">/p</span>&gt;</p>
+            <p class="center-content">Check out my recent blog posts and Projects below ッ</p>
         </div>
         <!----
         <div class="col">

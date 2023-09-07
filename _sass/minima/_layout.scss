@@ -16,7 +16,10 @@
   text-align: center; /* Optional: Center align content */
 }
 
-
+.col-food {
+  padding-right: 100px; /* Optional: Add padding for spacing */
+  text-align: center; /* Optional: Center align content */
+}
 
 .html-tag{
   color: #2a7ae2;
@@ -82,6 +85,15 @@ pre{
   margin: 0px; 
   padding: 0px; 
 
+}
+
+// Used for dropdown content 
+.dropdown-content {
+  display: none;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
 }
 
 /**
