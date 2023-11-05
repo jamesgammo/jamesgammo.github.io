@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_food
 title:  "Travelling, but what do I eat?"
 date:   2022-08-07 11:55:06 +0100
 category: Food

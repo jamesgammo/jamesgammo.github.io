@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_food
 title:  "Tips and tricks"
 date:   2022-12-24 11:55:06 +0100
 category: Food

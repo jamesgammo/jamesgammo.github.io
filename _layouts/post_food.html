@@ -19,7 +19,15 @@ layout: default
     {{ content }}
   </div>
 
-  <!--- Possible disqus comments in the blog -->
+  More posts: 
+  {%- assign last_cs = site.posts | where: "category", "CS" | first -%}
+  <br>
+  <img src="/windows cursor.png" alt="cursor" style="width: 20px; height: 20px;">
+  <li>
+      <a class="post-link-tech" href="{{ last_cs.url }}">{{ last_cs.title }}</a>
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      <span class="post-meta">{{ last_cs.date | date: date_format }}</span>
+  </li>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
