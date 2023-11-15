@@ -52,7 +52,7 @@ order: 3
                     <li>Seasame</li>
                     <li>Molluscs</li>
                 </ul>
-                <p>I'm suprised your still here after that long list; however I invite you to carry on reading otherwise, I would have spent countless hours fiddiling with the colours and layout of this blog - which don't look that different from how it started anyway.</p>
+                <p>I'm suprised your still here after that long list; however I invite you to carry on reading otherwise, I would have spent countless hours fiddiling with the colours and layout of this blogb - which don't look that different from how it started anyway.</p>
                 <p>I'm pretty open and upfont about allergies, but I haven't always been to be fair. As I've grown older I've discoved that not only being in this situation is a great conversation point as people seem pretty interested (Hopefully I'm not imaginging they are and boring them to death) but when talking to other people with similar situations, its a real great common ground between two people.</p>
                 <p>However, being here today and writing this blog means I haven't died from anaphylaxis - or natural causes - just yet, I can reflect just briefly about how having these has changed my philosiphy on food and other aspects of my life.</p>
                 <ul>
@@ -100,5 +100,3 @@ order: 3
     <p class="no-padding-paragraph center-content">Thanks :D</p>
 
 </div>
-
-<hr style="background-color: #4a8259; height: 1px; border: none;">  

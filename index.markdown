@@ -12,29 +12,21 @@ layout: home
         </div>
         --->
         <div class="col">
-            <p class="center-content">&lt;<span class="html-tag">p</span>&gt;I'm an undergraduate Computer Science student with a strong passion for the architectural aspects of technology development, looking for a career in this field. &lt;<span class="html-tag">/p</span>&gt;</p>
+            <p class="center-content">&lt;<span class="html-tag">p</span>&gt;Hi, I'm an undergraduate Computer Scientist with a passion for creating and sharing ideas and information, and love being part of experiences where you turn and think "wow, that is cool!"&lt;<span class="html-tag">/p</span>&gt;</p>
         </div>
         <div id="SecondInfo">
-            <p class="center-content">&lt;<span class="html-tag">p</span>&gt; I love exploring different theories of Mathamatics / Computer Science and am fascinated by the interrelations locally within the field and principles in the outside world. &lt;<span class="html-tag">/p</span>&gt;</p>
-            <p class="center-content">Below are my recent blog posts and projects</p>
+            <p class="no-padding-paragraph">Links:</p>
+            <li><img src="windows cursor.png" alt="cursor" style="width: 20px; height: 20px;"> :: This icon && <a class="headertut"> Hover cursor here</a></li>
+            <p class="no-padding-paragraph">Posts:</p>
+            <li>Post headings are bright and colourful and jump out when hovered over</li>
         </div>
-        <!----
-        <div class="col">
-            <p class="secondary-text center-content">&lt;<span class="html-tag">/div</span>&gt;</p>
+        <br>
+        <div id="ThirdInfo">
+            <p class="center-content no-padding-paragraph" style="font-size:24px;">Scroll for blog posts, projects and my CV :D</p>
+            <hr><br>
         </div>
-        --->
     </div>
-    <!---
-    <div class="center-content">
-        <img src="windows cursor.png" alt="cursor" style="width: 20px; height; 20px;">        
-        <a class="no-padding-paragraph headertut" href="/about.html">About page!</a><br>
-    </div>
-    --->
-
 </div>
-
-<br>
-
 <!-- Blog posts -->
 <p class="no-padding-paragraph" style="font-size: 26px">My recent blog posts:</p> 
 <div id="blog posts"  class="center-content">
@@ -58,7 +50,6 @@ layout: home
         </li>
     </ul>
 </div>
-
 <br>
 
 <!-- Projects -->
@@ -83,7 +74,7 @@ layout: home
     </div>
     <!-- C server development -->
     <div class="bordered-text center-content">
-        <a class="no-padding-paragraph headertut" href="/about-racing.html">C server implementation</a><br>
+        <a class="no-padding-paragraph headertut" href="/about-cserver.html">C server implementation</a><br>
         <span class="post-meta">Network server using dijkstras and a network library to foward packets over TCP/IP</span>
     </div>
     <br>
@@ -92,7 +83,7 @@ layout: home
 
 <!-- Github symbol -->
 <div class="center-content">
-<p class="no-padding-paragraph" style="font-size: 20px">Check out my Github:</p>
+<p class="no-padding-paragraph" style="font-size: 20px"></p>
  <a href="https://github.com/jamesgammo">
     <picture>
       <source srcset="/github.png">
@@ -102,6 +93,19 @@ layout: home
     <img src="windows cursor.png" alt="cursor" style="width: 17px; height; 17px;">
     <small class="headertut" style="font-size: 15px">GitHub</small>
   </a>
+</div>
+<div class="center-content">
+<br><br>
+<p class="no-padding-paragraph" style="font-size: 26px">Check out my CV     :</p>
+    <object
+        type="application/pdf"
+        data="/James_Gammon_CV_pdf.pdf"
+        width="800"
+        height="700"
+        class="center-content"
+    >
+    </object>
+
 </div>
 
 <br>
