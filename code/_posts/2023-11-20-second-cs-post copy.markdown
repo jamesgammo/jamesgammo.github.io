@@ -11,7 +11,7 @@ Unfortunately Dwanye the rock does not have a programming language, nor do I thi
 
 On a serious note, Upon listening to the Art of Code by Dylan Beattie, his creation of a rock programming language utterly blew me away. Not only because he created a programming language which is as impressive as it is, but he combines this with rock music, another thing I absoloutely adore. Now My interest in rock originated from my Dad playing it in the car, telling me "It's part of my education" and for Dylan to combine the two is beyond anything I could've imagined in the scope of fun projects. 
 
-The original language is <a href="https://codewithrockstar.com/">Here</a>
+<a class="no-padding-paragraph headertut" href="https://codewithrockstar.com/">Website for rockstar</a><br>
 
 <h1 style="font-family: 'Share Tech Mono'">Here is the source code</h1>
 
