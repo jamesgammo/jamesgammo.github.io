@@ -19,7 +19,7 @@ layout: default
     {{ content }}
   </div>
 
-  <h1>Click on the links for more posts:</h1>
+  <h1>Click on the links for more posts, and top of page for naviagation:</h1>
   <ul class="post-list">
     {%- assign food_posts = site.posts | where: "category", "Food" -%}
     {%- for post in food_posts limit:3 -%}
