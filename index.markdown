@@ -99,7 +99,7 @@ layout: home
 <p class="no-padding-paragraph" style="font-size: 26px">Check out my CV     :</p>
     <object
         type="application/pdf"
-        data="/James_Gammon_CV_Website.pdf"
+        data="/JamesGammonCV.pdf"
         width="800"
         height="700"
         class="center-content"
