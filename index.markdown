@@ -95,11 +95,11 @@ layout: home
   </a>
 </div>
 <div class="center-content">
-<br><br>
+<br>
 <p class="no-padding-paragraph" style="font-size: 26px">Check out my CV     :</p>
     <object
         type="application/pdf"
-        data="/JamesGammonCV.pdf"
+        data="/JamesGammonCVPDF.pdf"
         width="800"
         height="700"
         class="center-content"
