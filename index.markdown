@@ -1,34 +1,35 @@
 ---
 layout: home
 ---
-
+<!-- Introductory paragraph -->
 <div id="introduction">
-    <p class="intro-text center-content">James Gammon</p>
-    <!-- Small description -->
-    <div>
-        <!----
-        <div class="col">    
-            <p class="secondary-text center-content">&lt;<span class="html-tag">div</span>&gt;</p>
+    <!-- Introduction photo and small text -->
+    <div class="row">
+        <!-- First column with the image -->
+        <div class="photo-container col-1">
+            <img src="rootMedia/drawn-selfie.jpg" alt="Description of the image">
         </div>
-        --->
-        <div class="col">
-            <p class="center-content">&lt;<span class="html-tag">p</span>&gt;Hi, I'm an undergraduate Computer Scientist with a passion for creating and sharing ideas and information, and love being part of experiences where you turn and think "wow, that is cool!"&lt;<span class="html-tag">/p</span>&gt;</p>
-        </div>
-        <div id="SecondInfo">
-            <p class="no-padding-paragraph">Links:</p>
-            <li><img src="/rootMedia/windows cursor.png" alt="cursor" style="width: 20px; height: 20px;"> :: This icon && <a class="headertut"> Hover cursor here</a></li>
-            <p class="no-padding-paragraph">Posts:</p>
-            <li>Post headings are bright and colourful and jump out when hovered over</li>
-        </div>
-        <br>
-        <div id="ThirdInfo">
-            <p class="center-content no-padding-paragraph" style="font-size:24px;">Scroll for blog posts, projects and my CV :D</p>
-            <hr><br>
+        <!-- Second column with the description -->
+        <div class="col-2">
+            <div class="center-content secondary-text">&lt;<span class="html-tag">p</span>&gt;</div>
+            Hi, I'm an undergraduate Computer Scientist with a passion for creating and sharing ideas and information, and love being part of experiences where you turn and think "wow, that is cool!"
+            <div class="center-content secondary-text">&lt;<span class="html-tag">/p</span>&gt;</div>
         </div>
     </div>
+    <div id="SecondInfo">
+        <p class="no-padding-paragraph">Links:</p>
+            To navigate the website 
+            <img src="/rootMedia/windows cursor.png" alt="cursor" style="width: 20px; height: 20px;"> (Pointer icons) && <a class="headertut">Hover over me!</a>
+            <p class="no-padding-paragraph">Posts:</p>
+        Post headings are bright and colourful and jump out when hovered over
+    </div>
+    <br>
+    <div id="ThirdInfo">
+        <p class="center-content no-padding-paragraph" style="font-size:24px;">Scroll for blog posts, projects and my CV :D</p>
+        <hr><br>
+    </div>
 </div>
-
-<!-- Blog posts -->
+<!-- Blog posts All posts are assigned to a group based on there category-->
 <p class="no-padding-paragraph" style="font-size: 26px">My recent blog posts:</p> 
 <div id="blog posts"  class="center-content">
     <ul class = "older-posts">
@@ -52,7 +53,6 @@ layout: home
     </ul>
 </div>
 <br>
-
 <!-- Projects -->
 <p class="no-padding-paragraph" style="font-size: 26px">Check out my projects:</p>
 <br> 
@@ -83,21 +83,22 @@ layout: home
 
 <!-- Github symbol -->
 <div class="center-content">
-<p class="no-padding-paragraph" style="font-size: 20px"></p>
- <a href="https://github.com/jamesgammo">
-    <picture>
-      <source srcset="/rootMedia/github.png">
-      <img src="/rootMedia/github.png">
-    </picture>
-    <br/>
-    <img src="/rootMedia/windows cursor.png" alt="cursor" style="width: 17px; height; 17px;">
-    <small class="headertut" style="font-size: 15px">GitHub</small>
-  </a>
+    <p class="no-padding-paragraph" style="font-size: 20px"></p>
+    <a href="https://github.com/jamesgammo">
+        <picture>
+        <source srcset="/rootMedia/github.png">
+        <img src="/rootMedia/github.png">
+        </picture>
+        <br/>
+        <img src="/rootMedia/windows cursor.png" alt="cursor" style="width: 17px; height; 17px;">
+        <small class="headertut" style="font-size: 15px">GitHub</small>
+    </a>
 </div>
 
+<!-- Content for CV -->
 <div class="center-content">
-<br>
-<p class="no-padding-paragraph" style="font-size: 26px">Check out my CV     :</p>
+    <br>
+    <p class="no-padding-paragraph" style="font-size: 26px">Check out my CV     :</p>
     <object
         type="application/pdf"
         data="/rootMedia/JamesGammonCVPDF.pdf"

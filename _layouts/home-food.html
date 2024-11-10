@@ -8,6 +8,7 @@ layout: food
 
   {{ content }}
 
+  <!-- Gets the first 3 blog posts and provides a small blurb into each one-->
   {%- if site.posts.size > 0 -%}
     <ul class="post-list">
       {%- assign food_posts = site.posts | where: "category", "Food" -%}
@@ -21,6 +22,7 @@ layout: food
       </li>
       {%- endfor -%}
 
+      <!-- Gets the rest of the blog posts and provides these's as secondary links for access-->
       <p style="font-size: 22px;">More posts:</p>
       <ul class="older-posts">
         {%- assign cs_posts_older = site.posts | where: "category", "Food" -%}

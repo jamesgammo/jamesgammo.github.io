@@ -39,7 +39,7 @@ order: 3
     <!--More information about the blog-->
     <div id="about-blog">
             <!--About me-->
-            <img src="/windows cursor.png" alt="cursor" style="width: 20px; height; 20px;">
+            <img src="/rootMedia\windows cursor.png" alt="cursor" style="width: 20px; height; 20px;">
             <a href="#" class="dropdown-link no-padding-paragraph" data-target="dropdown-1">About Me</a>
             <div class="dropdown-content" id="dropdown-1">
                 <p>Hi, as your currently aware as it's posted all around the website my name is James, I'm a second year student at University who is in an extremely unique allergy situation, as far as I'm aware, below is the list of my currently known allergens.</p>
@@ -68,14 +68,14 @@ order: 3
             </div>
             <br>
             <!--Reasons to start the blog-->
-            <img src="/windows cursor.png" alt="cursor" style="width: 20px; height; 20px;">
+            <img src="/rootMedia\windows cursor.png" alt="cursor" style="width: 20px; height; 20px;">
             <a href="#" class="dropdown-link no-padding-paragraph" data-target="dropdown-2">Reasons starting the blog</a>
             <div class="dropdown-content" id="dropdown-2">
                 <p>Travelling is extremely enjoyable. It's exhilarating if you are going down a zip-wire at the eden project, fascinating if you are immersed in the Leonardo da Vinci museum in Venice and breath-taking if you're standing on the east ridge of the Grand Canyon. Preparing to go travelling in Europe was the small rock that created the avalanche for me to start this blog, one thing led to another now here I am procrastinating about doing some work, so I'm filling in this blog. The reason was funnily enough food allergies, freedom of information about a new experience, for me completely negates alot of anticipation, it was one food blog I read about travelling in Italy which enlightened me into thinking about the possibility of starting my own, obviously I can never run out of things to talk about from allergies, having 7 out of the big 14 I'm exactly half on a full house.</p>
             </div> 
             <br>           
             <!--What I aim to post about-->
-            <img src="/windows cursor.png" alt="cursor" style="width: 20px; height; 20px;">
+            <img src="/rootMedia\windows cursor.png" alt="cursor" style="width: 20px; height; 20px;">
             <a href="#" class="dropdown-link no-padding-paragraph" data-target="dropdown-3">Aim to post about</a>
             <div class="dropdown-content" id="dropdown-3">
                 <p>I love to create and post, some big things I'll mainly be posting about are: 
@@ -90,7 +90,7 @@ order: 3
             </div>
             <br>
             <!--Navigating the blog-->
-            <img src="/windows cursor.png" alt="cursor" style="width: 20px; height; 20px;">            
+            <img src="/rootMedia\windows cursor.png" alt="cursor" style="width: 20px; height; 20px;">            
             <a href="#" class="dropdown-link no-padding-paragraph" data-target="dropdown-4">Navigating the blog</a>
             <div class="dropdown-content" id="dropdown-4">
                 <p>This is the home page, the most recent posts have an insight into what they include. Posts will be visually catagoried in a way I haven't come up with yet; At the end of each post will be a series of related posts.</p>

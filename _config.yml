@@ -10,7 +10,7 @@
 
 url: https://jamesegammon.com
 baseurl: /
-title: James Gammon
+title: James' Notes and Website 
 
 # collection code 
 code: 
@@ -28,7 +28,7 @@ food:
 # INCLUDED FIELDS SHOULD BE PUT HERE
 name: James Gammon
 email: jamesegammon@gmail.com
-description: Welcome! 
+description: Welcome to my notes and information page 
 # Author is the default for posts, the atom feed, and is used in the footer. 
 # Used in the _includes : footer 
 author: James Gammon

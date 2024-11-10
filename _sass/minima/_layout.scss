@@ -7,14 +7,55 @@
 
 // Own classes imported
 
+/* Container that holds both the text and image, ensuring they align side by side */
+/* Flex container for columns */
 .row {
-  display: flex; /* Use flexbox for easy alignment */
+  display: flex;                 /* Use flexbox to align items horizontally */
+  align-items: center;           /* Vertically center the content */
+  justify-content: flex-start;   /* Align items to the left */
+  gap: $spacing-unit;             /* Space between columns */
+  flex-wrap: wrap;                /* Allow wrapping if the screen is small */
+  width: 100%;                    /* Ensure the row takes up 100% width */
 }
 
+/* Columns container */
 .col {
-  padding: 5px; /* Optional: Add padding for spacing */
-  text-align: center; /* Optional: Center align content */
+  @include relative-font-size(0.9375);
+  margin-left: -$spacing-unit / 2;   /* Adjust column spacing */
+  @extend %clearfix;
+  
+  padding-left: $spacing-unit / 2;  /* Padding inside each column */
+  margin-bottom: $spacing-unit / 2; /* Spacing between rows */
+  box-sizing: border-box;          /* Ensure padding is included in width calculation */
+  flex: 1 1 auto;                  /* Allow columns to grow and shrink as needed */
 }
+
+/* Specific column widths - these will be calculated dynamically */
+.col-1, .col-2, .col-3 {
+  padding: 10px; /* Optional: Adds spacing inside each column */
+}
+
+/* On larger screens, the columns will adjust to share the space equally */
+.col-1 {
+  flex: 1 1 33%;   /* Each column will take up 33% of the row */
+}
+
+.col-2 {
+  flex: 1 1 33%;   /* Each column will take up 33% of the row */
+}
+
+.col-3 {
+  flex: 1 1 33%;   /* Each column will take up 33% of the row */
+}
+
+/* For smaller screens (like phones), columns should stack vertically */
+@include media-query($on-palm) {
+  .col {
+    flex: 1 1 100%;  /* Make each column take up 100% of the width */
+    margin-bottom: $spacing-unit;  /* Add spacing between stacked columns */
+  }
+}
+/* END of column css ------------------- */
 
 .col-food {
   padding-right: 100px; /* Optional: Add padding for spacing */
@@ -54,13 +95,6 @@
 
 .secondary-text{
   font-size: 28px;
-}
-
-.seflie-drawn{
-  max-width: 95px; 
-  width: 95px;
-  height: 130px; 
-  border: 1px solid #2a7ae2;
 }
 
 .center-content{
@@ -219,14 +253,6 @@ pre{
     }
   }
 }
-
-
-
-
-
-
-
-
 
 /**
  * Site footer
@@ -388,7 +414,6 @@ pre{
 }
 
 
-
 /**
  * Posts
  */
@@ -443,5 +468,20 @@ pre{
       @include relative-font-size(1.125);
     }
   }
+}
 
+/* Photo container (image and border) */
+.photo-container {
+  flex-shrink: 1;                /* Prevent the image from shrinking */
+  box-sizing: border-box;
+  border-radius: 10px;           /* Rounded corners for the image container */
+  max-width: 100%;                /* Limit the image width to 40% of the container */
+  box-sizing: border-box;
+}
+
+.photo-container img {
+  height: 250px;
+  display: block;                /* Removes space below the image */
+  border-radius: 10px;           /* Rounding the edges of the image itself */
+  margin-left: 100px;
 }
