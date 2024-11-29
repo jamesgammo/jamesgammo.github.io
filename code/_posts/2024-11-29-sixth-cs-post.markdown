@@ -22,11 +22,13 @@ Attention is all you need was a revolutionary paper written by google in the lea
 So I pay attention to my thought processes, what's currently going on up there, and inevitbly what can I master. Nothing comes to mind as I read my book, but I have an idea for a blog post and here I am. Proliferation! An idea machine! By utlizing the obessions of what I consume conciously, I can create inherit and counter-intuitive links between topics, this interdiciplinary door. 
 <br>
 This is where my attention is at, and it's where I believe we can superstep current AI models to have the intrinsic power of recall and formation of information. What started with Language has become the beurgoning field within AI. RAG (Retrival augmented generation) explained here by ChatGPT :)
-<img src="../../GPT.png" alt="GPT">
+<img src="../../rootMedia/GPT.png" alt="GPT not loaded">
  within a context of a 3D space (Each word has a vector associated withit, with a mapping of vector value to a word)
+ <br>
  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.720YdB83sz5ObihUXp1fdQHaH-%26pid%3DApi&f=1&ipt=5458c9a3b6a0b15d2e3a8cba79055174d9c9418b486d52120315016600a6967a&ipo=images">
- creates recall of a particular combination of vectors (and the spaces / words they point) to form information embeddings, with the incooperation of the Leiden algorithm (An algorithm to agglamate nodes with a graph)
-<img src="https://cb11711211.github.io/2022/09/13/louvain-and-leiden-algorithm/pasted-4.png" alt="Description of the image">
+ <br>
+ creates recall of a particular combination of vectors (and the spaces / words they point) to form information embeddings, with the incooperation of the Leiden algorithm (An algorithm to agglamate nodes with a graph)<br >
+<img src="https://cb11711211.github.io/2022/09/13/louvain-and-leiden-algorithm/pasted-4.png" alt="Description of the image"><br>
 AI can closed-loop form comparisons based on its recent topics creating new avenues between information, like the link of a good manager and a top athelete explored in this ted talk 
 <a class="no-padding-paragraph headertut" href="https://www.ted.com/talks/antje_heimsoeth_what_managers_can_learn_from_top_athletes?subtitle=en">in in this ted talk</a><br>, AI will explonentially learn the mechanisms of what makes two events similiar, and <i>how</i> a good manager can learn form a top athlete. In a nutshell create a technology that builds the biggest lego set out of all information ever - as everything is connected through something and everyone has something to offer about anything, just like I said at the start.  
 <h1 style="font-family: 'Share Tech Mono'">Annddddd....</h1>
