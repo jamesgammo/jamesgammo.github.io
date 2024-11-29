@@ -22,7 +22,7 @@ Attention is all you need was a revolutionary paper written by google in the lea
 So I pay attention to my thought processes, what's currently going on up there, and inevitbly what can I master. Nothing comes to mind as I read my book, but I have an idea for a blog post and here I am. Proliferation! An idea machine! By utlizing the obessions of what I consume conciously, I can create inherit and counter-intuitive links between topics, this interdiciplinary door. 
 <br>
 This is where my attention is at, and it's where I believe we can superstep current AI models to have the intrinsic power of recall and formation of information. What started with Language has become the beurgoning field within AI. RAG (Retrival augmented generation) explained here by ChatGPT :)
-<img src="../../rootMedia/GPT.png" alt="GPT not loaded">
+<img src="image.png" alt="GPT not loaded">
  within a context of a 3D space (Each word has a vector associated withit, with a mapping of vector value to a word)
  <br>
  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.720YdB83sz5ObihUXp1fdQHaH-%26pid%3DApi&f=1&ipt=5458c9a3b6a0b15d2e3a8cba79055174d9c9418b486d52120315016600a6967a&ipo=images">
