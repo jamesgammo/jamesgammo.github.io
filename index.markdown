@@ -12,7 +12,9 @@ layout: home
         <!-- Second column with the description -->
         <div class="col-2">
             <div class="center-content secondary-text">&lt;<span class="html-tag">p</span>&gt;</div>
-            Hi, I'm an undergraduate Computer Scientist with a passion for creating and sharing ideas and information, and love being part of experiences where you turn and think "wow, that is cool!"
+            Hi, I'm an undergraduate Computer Scientist with a passion for creating sharing ideas and information, and love being part of experiences where you turn and think "wow, that is cool!" 
+            <br><br>
+            I expand and talk about many topics here; My field of interest spans far and wide, so there may be something you enjoy, if not leave a recommendation.
             <div class="center-content secondary-text">&lt;<span class="html-tag">/p</span>&gt;</div>
         </div>
     </div>
