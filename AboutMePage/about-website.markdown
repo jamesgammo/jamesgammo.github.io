@@ -26,7 +26,7 @@ Simply run the Jekyll generator whenever you make changes to your source files. 
 <div class = "center-content">
 <a href="https://github.com/jamesgammo/jamesgammo.github.io">
     <picture>
-      <source srcset="/github.png">
+      <source srcset="/github.com">
       <img src="github.png">
     </picture>
     </a>

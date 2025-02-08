@@ -63,23 +63,23 @@ layout: home
 <div class="center-content">
     <!-- Website project  -->
     <div class="bordered-text center-content">
-        <a class="no-padding-paragraph headertut" href="aboutMePages/about-website.html">This website</a><br>
+        <a class="no-padding-paragraph headertut" href="AboutMePage/about-website.html">This website</a><br>
         <span class="post-meta">A simple combination of a personal portfolio and some inspired blogs; hosted on a single site</span>
     </div>
     <!-- Othello Game project  -->
     <div class="bordered-text center-content">
-        <a class="no-padding-paragraph headertut" href="aboutMePages/about-othello.html">Othello</a><br>
+        <a class="no-padding-paragraph headertut" href="AboutMePage/about-othello.html">Othello</a><br>
         <span class="post-meta">A two player Othello game, written in Java using Java UI framework </span>
     </div>
     <br>
     <!-- Car racing game-->
     <div class="bordered-text center-content">
-        <a class="no-padding-paragraph headertut" href="aboutMePages/about-racing.html">Single player racing game</a><br>
+        <a class="no-padding-paragraph headertut" href="AboutMePage/about-racing.html">Single player racing game</a><br>
         <span class="post-meta">Car controller designed to teach and test racing principles</span>
     </div>
     <!-- C server development -->
     <div class="bordered-text center-content">
-        <a class="no-padding-paragraph headertut" href="aboutMePages/about-cserver.html">C server implementation</a><br>
+        <a class="no-padding-paragraph headertut" href="AboutMePage/about-cserver.html">C server implementation</a><br>
         <span class="post-meta">Network server using dijkstras and a network library to foward packets over TCP/IP</span>
     </div>
     <br>
