@@ -7,7 +7,6 @@ order: 4
 
 <!-- All code here is shown above the blog posts-->
 
-<!--Links to external font style sheets -->
 <link href='https://fonts.googleapis.com/css?family=Share Tech Mono' rel='stylesheet'>
 
 
@@ -15,11 +14,9 @@ order: 4
     Welcome to my Computing 66 108 111 103. Here, I'll be talking about current news, my progress as a software engineer, and further interesting topics!
 </p>
 
-<!-- class to show art div -->
-
 
 <div class ="ascii-art-laptop">
-  <pre >
+  <pre>
                               \\\\\\\\\
                               \\\\\\\\\\\\ 
                             \\\\\\\\\\\\\\\

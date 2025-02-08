@@ -18,6 +18,7 @@ layout: home
             <div class="center-content secondary-text">&lt;<span class="html-tag">/p</span>&gt;</div>
         </div>
     </div>
+    <!--- Information about site navigation -->
     <div id="SecondInfo">
         <p class="no-padding-paragraph">Links:</p>
             To navigate the website 
@@ -26,6 +27,7 @@ layout: home
         Post headings are bright and colourful and jump out when hovered over
     </div>
     <br>
+    <!--- Page seperator--->
     <div id="ThirdInfo">
         <p class="center-content no-padding-paragraph" style="font-size:24px;">Scroll for blog posts, projects and my CV :D</p>
         <hr><br>
@@ -38,7 +40,7 @@ layout: home
         {%- assign last_cs = site.posts | where: "category", "CS" | first -%}
         {%- assign last_food = site.posts | where: "category", "Food" | first -%}
         <img src="/rootMedia/windows cursor.png" alt="cursor" style="width: 20px; height: 20px;">
-        <a class="no-padding-paragraph headertut" href="/code/">JG.Computing</a> 
+        <a class="no-padding-paragraph headertut" href="/Technology/">JG.Computing</a> 
         <li>
             <a class="post-link-tech" href="{{ last_cs.url }}">{{ last_cs.title }}</a>
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}

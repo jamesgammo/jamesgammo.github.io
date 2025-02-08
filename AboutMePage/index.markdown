@@ -1,7 +1,9 @@
 ---
 layout: home
+title : "Home Page"
+category: General 
+navigation : true
 ---
-
 <div id = "main-content">
     <div>
         Computer Science related interests:

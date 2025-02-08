@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  <!-- head includes meta data about the website -->
+  {%- include head.html -%}
+
+  <body>
+    {%- include blogLandingPageHeader.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <!-- Content is specified in the class that users the layouts -->
+         <!-- This one is home-cs.html page-->
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

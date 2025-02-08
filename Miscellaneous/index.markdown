@@ -1,7 +1,7 @@
 ---
-layout: home-food
-title: "Food blog"
-category: Food 
+layout: home
+title: "Miscellaneous"
+category: Miscellaneous 
 order: 3
 ---
 <script>

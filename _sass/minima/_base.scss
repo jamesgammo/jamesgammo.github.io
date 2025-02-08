@@ -8,6 +8,13 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
+.hr-LandingPage {
+  border: none;             /* Removes the default border */
+  height: 3px;              /* Sets the thickness of the horizontal line */
+  background-color: $green-color; /* Assign your desired block color */
+  width: 100%;              /* Makes the <hr> span the full width of its container */
+}
+
 /**
  * Basic styling
  */
@@ -87,7 +94,6 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 
-//added
 .headertut{
   text-decoration: none;
   position: relative;
@@ -97,6 +103,46 @@ h1, h2, h3, h4, h5, h6 {
     width:0;
     height: 3px;
     background: #086dcc;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.3s;
+  }
+
+  &:hover::after{
+    width: 100%;
+  }
+}
+
+.headertut-Landing-Page{
+  text-decoration: none;
+  position: relative;
+
+  &::after{
+    content:'';
+    width:0;
+    height: 3px;
+    background: $green-color;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.3s;
+  }
+
+  &:hover::after{
+    width: 100%;
+  }
+}
+
+.headertut-technology-page{
+  text-decoration: none;
+  position: relative;
+
+  &::after{
+    content:'';
+    width:0;
+    height: 3px;
+    background: $pink-color;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -126,6 +172,28 @@ a {
       text-decoration:dotted;
     }
   }
+}
+
+button.headertut {
+  all: unset; /* Reset default button styles */
+  position: relative; /* Ensure relative positioning for ::after */
+  text-decoration: none; /* Remove default text underline */
+  cursor: pointer; /* Maintain interactivity */
+}
+
+button.headertut::after {
+  content: ''; /* Necessary to make the pseudo-element render */
+  width: 0; /* Initial width of the underline */
+  height: 3px; /* Height of the underline */
+  background: $green-color; /* Color of the underline */
+  position: absolute; /* Position it relative to the button */
+  left: 0; /* Align to the left of the button */
+  bottom: -6px; /* Position it below the button */
+  transition: width 0.3s; /* Smooth animation for width */
+}
+
+button.headertut:hover::after {
+  width: 100%; /* Expand underline on hover */
 }
 
 

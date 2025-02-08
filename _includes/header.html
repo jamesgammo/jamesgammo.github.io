@@ -1,8 +1,9 @@
 <header class="site-header" role="banner">
 
   <div class="wrapper">
-    <!-- All .markdown pages-->
-    {%- assign default_paths = site.pages | sort:"order" | map: "path" -%}
+    <!-- Automatically assigns all .markdown pages to be here with navigation = true-->
+    {%- assign filtered_pages = site.pages | where: "navigation", true | sort: "order" -%}
+    {%- assign default_paths = filtered_pages | map: "path" -%}    
     {%- assign page_paths = site.header_pages | default: default_paths -%}
 
      

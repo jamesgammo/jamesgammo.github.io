@@ -6,8 +6,10 @@ layout: computing
 
 <div class="home">
 
+  <!--- Content which the page uses this layout--->
   {{ content }}
 
+  <!---Shows the preview of the first 3 categories of the category--->
   {%- if site.posts.size > 0 -%}
     <ul class="post-list">
       {%- assign cs_posts = site.posts | where: "category", "CS" -%}
@@ -16,12 +18,14 @@ layout: computing
         <a class="post-link-tech" href="{{ post.url }}">{{ post.title }}</a>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta-cs">{{ post.date | date: date_format }}</span>
-        {{ post.excerpt }}
+        {{ post.content | markdownify | strip_html | truncatewords: 50 }}
+        <br>
         <a href="{{ post.url }}"> <b style = "color: #9a4962;">Read more &#187;</b> </a>
 
       </li>
       {%- endfor -%}
 
+    <!---Shows the rest of the blog posts within the category--->
       <p style="  font-family: 'Share Tech Mono'; font-size: 22px;">More posts:</p>
       <ul class="older-posts">
         {%- assign cs_posts_older = site.posts | where: "category", "CS" -%}
