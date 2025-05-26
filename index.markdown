@@ -48,7 +48,7 @@ layout: home
         </li>
         <br>
         <img src="/rootMedia/windows cursor.png" alt="cursor" style="width: 20px; height; 20px;">
-        <a class="no-padding-paragraph headertut" href="/food/">JG.Food</a> 
+        <a class="no-padding-paragraph headertut" href="/Food/">JG.Food</a> 
         <li>
             <a class="post-link-food" href="{{ last_food.url }}">{{ last_food.title }}</a>
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}

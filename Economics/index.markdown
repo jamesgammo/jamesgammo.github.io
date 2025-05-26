@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "'cology blog"
+title: "Economicly done for"
 category: General
 order: 4
 ---
@@ -11,5 +11,10 @@ order: 4
 
 
 <p style="font-family: 'Share Tech Mono';font-size: 22px;">
-    Welcome to my 'cology blog!
+    Welcome to my Economics and Money site, where the content is:
+    <ul>
+    <li>Probably not interesting</li>
+    <li>Outdated</li>
+    <li>Wrong</li>
+    </ul>
 </p>

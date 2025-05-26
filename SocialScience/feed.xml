@@ -2,8 +2,8 @@
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-<link href="{{- site.url -}}{{- site.baseurl -}}code/feed.xml" rel="self" type="application/atom+xml"/>
-<link href="{{- site.url -}}{{- site.baseurl -}}code/feed.xml" rel="alternate" type="text/html"/>
+<link href="{{- site.url -}}{{- site.baseurl -}}socialscience/feed.xml" rel="self" type="application/atom+xml"/>
+<link href="{{- site.url -}}{{- site.baseurl -}}socialscience/feed.xml" rel="alternate" type="text/html"/>
 
 <!-- feed itself and the post entries for the feed : allows for quick updates and transfer of -->
 
@@ -12,10 +12,10 @@
 <updated>{{- site.time | date_to_xmlschema -}}</updated>
 
 <!-- Unique ID blog site -->
-<id>{{- site.url -}}{{- site.baseurl -}}code/feed.xml</id>
+<id>{{- site.url -}}{{- site.baseurl -}}socialscience/feed.xml</id>
 
 <!-- Site title -->
-<title>{{- site.title -}} Computer Science Blog</title>
+<title>{{- site.title -}} Social Science Blog</title>
 
 <!--strips white space and html before/after the site description -->
 <subtitle>{{- site.description | strip_html | lstrip | rstrip -}}</subtitle>

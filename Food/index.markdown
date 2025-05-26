@@ -1,7 +1,7 @@
 ---
 layout: home
-title: "Miscellaneous"
-category: Miscellaneous 
+title: "Food"
+category: Food 
 order: 3
 ---
 <script>

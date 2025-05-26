@@ -24,6 +24,28 @@ food:
   tagline: Aiming to spread plentiful information on living with allergies 
   url: https://jamesegammon.com/food/
 
+  # collection food
+geography: 
+  title: geography.Jamesegammon
+  tagline: The world is a big place, and I want to explore it 
+  url: https://jamesegammon.com/geography/
+
+economics: 
+  title: economics.Jamesegammon
+  tagline: Economics is the study of how people make choices
+  url: https://jamesegammon.com/economics/
+
+socialscience: 
+  title: socialscience.Jamesegammon
+  tagline: Social Science is the study of how people interact with each other
+  url: https://jamesegammon.com/socialscience/
+
+sport: 
+  title: sport.Jamesegammon
+  tagline: sporty tagline here! Read backwards...
+  url: https://jamesegammon.com/sport/
+
+
 
 # INCLUDED FIELDS SHOULD BE PUT HERE
 name: James Gammon
